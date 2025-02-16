@@ -1,4 +1,3 @@
-#Rushi Mandhare Bhau
 
 from flask import Flask, render_template, request, redirect, flash, session, send_file
 from flask_sqlalchemy import SQLAlchemy
@@ -31,8 +30,8 @@ db = SQLAlchemy(app)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Use your email service provider's SMTP server
 app.config['MAIL_PORT'] = 587  # Port for outgoing email
 app.config['MAIL_USE_TLS'] = True  # Use TLS encryption
-app.config['MAIL_USERNAME'] = 'vk0984242@gmail.com'  # Your email address
-app.config['MAIL_PASSWORD'] = 'yqvj rilf eftl rhso'  # Your email password
+app.config['MAIL_USERNAME'] = '####'  # Your email address
+app.config['MAIL_PASSWORD'] = '####'  # Your email password
 
 mail = Mail(app)
 
